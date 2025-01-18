@@ -1,0 +1,812 @@
+@media screen and (max-width:1600px) {
+    .footer-copy {
+        bottom: 120px;
+        right: 70px;
+    }
+    .scrollopt {
+        position: absolute;
+        left: 180px;
+        top: 180px;
+    }
+    .banner-item {
+        background-position: top right 60%;
+    }
+}
+
+@media screen and (max-width:1399px) {
+    .judge-logo {
+        right: 240px;
+        bottom: 70px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .judge-logo {
+        right: 205px;
+        bottom: 55px;
+    }
+    .partner-section-inner {
+        flex-direction: column;
+    }
+    .partner-inner-content {
+        width: 100%;
+    }
+    .partner-inner-desc {
+        margin: 0 auto 0 0;
+        padding: 30px 0;
+    }
+    .partner-inner-link {
+        margin: 0 auto 0 0;
+    }
+    .judge-profile-desc {
+        padding: 0px 0 0 90px;
+    }
+    .judge-team:nth-child(2) .judge-profile-desc {
+        padding: 120px 0 0 15px;
+    }
+    .judge-profile-name {
+        position: absolute;
+        bottom: 30px;
+        transform: rotate(-16deg);
+        left: 70px;
+    }
+    .judge-team:nth-child(2) .judge-profile-name {
+        bottom: 40px;
+        left: 80px;
+    }
+    .judge-profile-name h2 {
+        font-size: 28px;
+    }
+    .judge-profile-desg {
+        position: absolute;
+        bottom: 0px;
+        transform: rotate(-16deg);
+        left: 80px;
+    }
+    .judge-team:nth-child(2) .judge-profile-desg {
+        left: 90px;
+        bottom: -5px;
+    }
+    .judge-profile-desg {
+        left: 80px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .maindiv {
+        left: 0px;
+    }
+    .fixedwithdiv {
+        max-width: 100%;
+        padding: 3rem 2rem;
+    }
+    .main_single_content h1 {
+        font-size: 44px;
+    }
+    .contentdiv {
+        max-width: 100%;
+    }
+    .fullcontentwidth h2 {
+        font-size: 32px;
+    }
+    .maindiv .feature-slider-section,
+    .maindiv .fetaure-section-title {
+        margin: 0 0 0 auto;
+    }
+    /*====== Category page ======*/
+    .submisionarea {
+        margin-left: 0rem;
+        padding: 0;
+    }
+    .submisionarea h2 {
+        margin-top: 2rem;
+    }
+    .categoryitemlist,
+    .rightcatainfo {
+        max-width: 95%;
+    }
+    .categoryitemlist p {
+        padding-right: 0;
+    }
+    /*====== Category page ======*/
+}
+
+
+/* 
+@media screen and (max-width:991px) and (min-width:768)  {
+    .banner-content-box {
+        width: 100%;
+    }
+} */
+
+@media screen and (max-width:991px) {
+    .banner-item {
+        background-position: top right 50%;
+    }
+    .scrollopt {
+        position: absolute;
+        left: 0;
+        top: 100px;
+    }
+    img.hm-main-tring {
+        width: 53% !important;
+    }
+    .banner-content-desc h2 {
+        padding-bottom: 20px;
+    }
+    #header {
+        display: block;
+        position: relative;
+        width: 100%;
+        background: var(--black-color);
+        height: auto;
+        /* overflow: scroll; */
+        z-index: 99999;
+        padding: 0 15px;
+    }
+    .main-nav {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .nav-inner {
+        display: none;
+    }
+    .ham-link {
+        display: block;
+    }
+    .nav-inner.active {
+        display: block;
+    }
+    .banner-item {
+        align-items: flex-end;
+    }
+    .banner-content-desc h3 {
+        padding-bottom: 20px;
+    }
+    .banner-content-title {
+        padding: 0 0 20px;
+    }
+    .about-content {
+        width: 50%;
+    }
+    .about-content-img {
+        width: 50%;
+    }
+    .fetaure-section-title {
+        margin: auto;
+        width: 100%;
+    }
+    .feature-slider-section {
+        margin: auto;
+        padding-top: 30px;
+        width: 100%;
+    }
+    .judge-top-section {
+        margin: auto;
+        width: 100%;
+    }
+    .judge-profile-desc {
+        transform: rotate(45deg);
+        padding: 0px 0 0 70px;
+    }
+    .judge-team:nth-child(2) .judge-profile-desc {
+        padding: 50px 0 0 70px;
+    }
+    .judge-team:nth-child(2) {
+        padding: 43px 0px 0px 50px;
+    }
+    .judge-logo {
+        right: 178px;
+        bottom: 55px;
+    }
+    .judge-profile-desc p {
+        letter-spacing: 0px;
+        font-size: 14px;
+    }
+    .judges-section {
+        padding: 90px 0 90px;
+    }
+    .foot-right-links-inner {
+        flex-direction: column;
+    }
+    .nav-inner {
+        transform: translateX(-100%);
+    }
+    .nav-inner.active {
+        display: inline-block;
+        position: fixed;
+        background: #000;
+        width: 250px;
+        left: 0;
+        transform: translateX(0%);
+        transition: 3s all linear;
+    }
+    /* new */
+    .nav-inner.active {
+        min-height: 100vh;
+        top: 20px;
+        padding-top: 4rem;
+        z-index: -1;
+        background: rgba(0, 0, 0, 0.7)!important;
+        backdrop-filter: blur(4px);
+    }
+    .main-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0 16px;
+        background: rgba(0, 0, 0, 1);
+    }
+    .main-content {
+        padding-top: 82px;
+    }
+    .partner-main-content {
+        margin: 0;
+    }
+    .nav-submission {
+        background-position: top left -5%;
+        background-size: 85% 100%;
+        padding-bottom: 90px;
+    }
+    .nav-logo {
+        padding: 10px 25px 10px 0;
+        text-align: center;
+    }
+    .nav-logo a img {
+        width: 70%;
+    }
+    /* new */
+    /*====== privacy start ======*/
+    .main-content-inner {
+        padding-left: 0;
+    }
+    .splitsection {
+        flex-direction: column-reverse;
+    }
+    .contetn_head h1 {
+        padding: 2rem 0px 0rem 0rem;
+        font-size: 40px;
+    }
+    .rightconentarea {
+        padding: 0 0rem;
+    }
+    .rightconentarea h4 {
+        font-size: 30px;
+    }
+    .leftcontentarea {
+        min-width: 100%;
+        margin-top: 2rem;
+    }
+    .leftcontentarea li {
+        margin-bottom: 0;
+    }
+    /*====== privacy ends ======*/
+    /*====== Category page ======*/
+    .contetn_head h1 {
+        text-align: center;
+        margin-bottom: 1.8rem;
+    }
+    /*====== Category page ======*/
+}
+
+@media screen and (max-width:768px) {
+    /*====== Single Blog ======*/
+    .maindiv {
+        top: -60px;
+    }
+    .maindiv .feature-slider-section,
+    .maindiv .fetaure-section-title {
+        margin-left: 12px;
+    }
+    .fixedwithdiv {
+        max-width: 100%;
+        padding: 3rem 1rem;
+    }
+    .main_single_content h1 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    .content_head i {
+        margin: 0 4px;
+    }
+    .content_head span {
+        margin: 0 4px 0 0;
+        font-size: 14px;
+    }
+    .fullwithdiv {
+        padding: 1rem;
+    }
+    .withimgsec {
+        flex-direction: column;
+    }
+    .fixedwithdiv {
+        padding-bottom: 0;
+    }
+    /*====== Single Blog ======*/
+    /*====== Category page ======*/
+    .content_right {
+        background-color: unset;
+        backdrop-filter: unset;
+    }
+    .mainbg {
+        background-color: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(25px);
+    }
+    .catalist .content_right {
+        background-color: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(25px);
+        padding-left: 0;
+        margin-left: 0;
+        padding: 2rem;
+    }
+    /*====== Category page ======*/
+}
+
+@media screen and (max-width:767px) {
+    .partner-inner-title.media-partner {
+        display: none;
+    }
+    .partner-inner-img.media-partner-img {
+        display: none;
+    }
+    .scrollopt {
+        display: none;
+    }
+    .banner-content-desc h3 {
+        line-height: 24px;
+    }
+    .banner-content-title h2 {
+        line-height: 26px;
+    }
+    .about-content-desc {
+        padding: 30px 0;
+    }
+    .navarrow {
+        font-size: 48px;
+        top: -80px;
+    }
+    .judges-inner-section {
+        flex-direction: column;
+    }
+    .judge-logo {
+        display: none;
+    }
+    .judges-inner-section {
+        transform: rotate(0deg);
+    }
+    .judge-profile-img {
+        transform: rotate(0deg);
+    }
+    .judge-profile-img img {
+        width: 70%;
+    }
+    .judge-profile-desg {
+        position: absolute;
+        bottom: 10px;
+        transform: rotate(-60deg);
+        left: 205px;
+    }
+    .judge-profile-name {
+        position: absolute;
+        bottom: 60px;
+        transform: rotate(-60deg);
+        left: 155px;
+    }
+    .judge-profile-desc {
+        transform: rotate(0deg);
+        padding: 30px 0px;
+    }
+    .judge-team:nth-child(2) {
+        padding: 0;
+    }
+    .judge-team:nth-child(2) .judge-profile-desc {
+        padding: 30px 0px;
+    }
+    .judge-team:nth-child(2) .judge-profile-name {
+        bottom: 65px;
+        left: 150px;
+    }
+    .judge-team:nth-child(2) .judge-profile-desg {
+        left: 220px;
+        bottom: -12px;
+    }
+    .judges-section-title {
+        padding-bottom: 30px;
+    }
+    .judges-section {
+        padding: 50px 0;
+    }
+    .partner-inner-desc {
+        padding: 20px 0;
+    }
+    .footer-middle-img img {
+        width: 40%;
+    }
+    .footer-main {
+        flex-direction: column-reverse;
+    }
+    .footer-right-top {
+        width: 100%;
+    }
+    .foot-social-links-inner {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        justify-content: space-between;
+        border-top: 1px solid #999;
+        border-bottom: 1px solid #999;
+        padding: 10px 0;
+        margin: 30px 0;
+    }
+    .foot-social {
+        border: none;
+        width: 50%;
+        align-items: flex-start;
+    }
+    #footer {
+        padding: 80px 15px 200px;
+    }
+    .foot-social-inner {
+        display: flex;
+        flex-direction: column;
+    }
+    .foot-right-links-inner {
+        align-items: start;
+    }
+    .foot-right-links {
+        width: 50%;
+    }
+    .footer-middle-content {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .footer-left-desc {
+        padding: 30px 0 100px;
+    }
+    .footer-left-desc p {
+        color: var(--white-color);
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+    .toast-container {
+        max-width: 300px;
+        bottom: inherit;
+        top: 110px;
+    }
+    .toastnewsletter label {
+        font-size: 12px;
+    }
+    .toastnewsletter {
+        flex-direction: column;
+    }
+    .subscribetoastsubmit {
+        margin: 10px auto 0;
+        display: inline-block;
+    }
+    .feature-item-title {
+        min-height: 110px;
+    }
+    .progress {
+        margin: 20px 0;
+    }
+    .judges-section {
+        padding: 20px 0;
+    }
+    #partner-inner-img {
+        display: block;
+    }
+    #partner-inner-img .slick-slide img {
+        display: block;
+        margin: auto;
+    }
+    .progress1 {
+        margin: 20px 0;
+    }
+    .progress1 {
+        display: block;
+        width: 100%;
+        height: 3px;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: #cccccc;
+        background-image: linear-gradient(to right, #102a48, #102a48);
+        background-repeat: no-repeat;
+        background-size: 0 100%;
+        transition: background-size .4s ease-in-out;
+    }
+    .sr-only1 {
+        border: 0;
+        clip: rect(0, 0, 0, 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+    /* new */
+    /*====== privacy start ======*/
+    .rightconentarea h4 {
+        font-size: 26px;
+        margin: 1rem 0;
+    }
+    .rightconentarea h5 {
+        margin: 1rem 0;
+    }
+    .contetn_head h1 {
+        font-size: 36px;
+    }
+    /*====== privacy ends ======*/
+    /*====== Single Blog ======*/
+    .slidegraphic {
+        flex-direction: column;
+        align-items: center;
+    }
+    .bgwithimg {
+        padding: 2rem 0;
+    }
+    .fixedwithdiv:not(:nth-child(1)) {
+        padding-top: 10px;
+    }
+    .fullcontentwidth {
+        flex-direction: column;
+    }
+    .fullcontentwidth div {
+        max-width: 100%!important;
+    }
+    .fullcontentwidth h2 {
+        font-size: 28px;
+    }
+    /*====== Single Blog ======*/
+    /*====== Category page ======*/
+    .content_left {
+        float: none;
+        margin-top: 0rem;
+        margin: auto;
+    }
+    .content_right {
+        padding-left: 0;
+        margin-left: 0;
+        padding: 0 15px;
+    }
+    .rightcatainfo {
+        flex-direction: column;
+        grid-gap: 0;
+    }
+    .mainbg {
+        padding-top: 2rem;
+    }
+    .rightcatainfo div>div {
+        margin: 0rem 0;
+    }
+    .submisionarea {
+        background-size: cover;
+    }
+    .categorylist {
+        flex-direction: column;
+    }
+    .catalist .content_right {
+        padding: 0rem 1rem;
+        padding-bottom: 0;
+    }
+    /*====== Category page ======*/
+    .footer-left-desc h2 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .about-content-title h2 {
+        font-size: 24px;
+    }
+    img.hm-main-tring {
+        width: 100% !important;
+        position: absolute;
+        bottom: 0;
+    }
+    img.hm-small-tring {
+        position: absolute;
+        top: 0;
+        width: 50% !important;
+        right: 0;
+    }
+    .banner-content-box {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .banner-img {
+        display: none;
+    }
+    .banner-item {
+        background: url(../images/index-banner-bg.jpg);
+        position: relative;
+        display: block;
+        height: 400px;
+        background-position: center right 40%;
+        background-size: cover;
+    }
+    .banner-item.middle {
+        background: none;
+    }
+    .banner-content-title h2 {
+        color: #fff;
+    }
+    .banner-item.middle .banner-img {
+        display: block;
+        position: relative;
+        height: 100%;
+    }
+    .banner-content-link {
+        display: none;
+    }
+    .banner-content-desc h2 {
+        color: var(--white-color);
+    }
+    .banner-content-title h1 {
+        color: var(--white-color);
+    }
+    .banner-content-box {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), transparent);
+        padding-top: 50px;
+    }
+    .feature-section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .judges-section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .about-section {
+        padding: 30px 15px;
+    }
+    .about-content-desc {
+        padding: 20px 0;
+    }
+    .feature-slider-section {
+        padding-top: 25px;
+    }
+    .judge-profile-img {
+        margin-left: -100px;
+    }
+    .judge-profile-name {
+        left: 90px;
+    }
+    .judge-profile-desg {
+        left: 130px;
+        bottom: 25px;
+    }
+    .judge-profile-name h2 {
+        font-size: 24px;
+        margin: 0;
+    }
+    .judge-team:nth-child(2) .judge-profile-name {
+        left: 90px;
+        bottom: 60px;
+    }
+    .judge-team:nth-child(2) .judge-profile-desg {
+        left: 150px;
+        bottom: 0px;
+    }
+    .judge-team:nth-child(2) .judge-profile-desc {
+        padding: 20px 0;
+    }
+    .judge-profile-desc {
+        padding: 20px 0;
+        width: 64%;
+    }
+    .partner-section {
+        padding: 30px 15px;
+    }
+    .partner-inner-desc p {
+        line-height: 20px;
+    }
+    .partner-inner-content {
+        width: 60%;
+    }
+    .footer-left-desc {
+        padding: 30px 0 50px;
+    }
+    #footer {
+        padding: 79px 15px 160px;
+    }
+    .feature-item-title h3 {
+        padding: 10px 0 0;
+    }
+    .banner-content-desc h2 {
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .banner-item {
+        height: 460px;
+        background-position: top right 40%;
+    }
+    .feature-item-title {
+        min-height: 65px;
+    }
+    .feature-item-title h3 {
+        padding: 15px 0 15px;
+    }
+    .footer-middle-img img {
+        width: 65%;
+    }
+    .about-content-img {
+        width: 50%;
+        text-align: center;
+        padding-bottom: 20px;
+        position: absolute;
+        right: -40px;
+    }
+    .animation-element.in-view .about-content-img img {
+        width: 100%;
+    }
+    .about-secction-inner {
+        justify-content: center;
+    }
+    .about-content {
+        width: 60%;
+        margin: 0 auto 0 0;
+    }
+    .about-section {
+        position: relative;
+    }
+    .judge-profile-name {
+        left: 60px;
+    }
+    .judge-profile-desg {
+        left: 100px;
+        bottom: 25px;
+    }
+    .judge-team:nth-child(2) .judge-profile-name {
+        left: 60px;
+    }
+    .judge-team:nth-child(2) .judge-profile-desg {
+        left: 120px;
+    }
+    .judge-profile-img img {
+        width: 355px;
+    }
+    /* .footer-left-desc {
+        padding: 30px 0 10px;
+    } */
+}
+
+@media screen and (max-width:425px) {
+    .nav-inner.active {
+        min-height: 100vh;
+        top: 0;
+        padding-top: 5.5rem;
+        z-index: -1;
+        background: rgba(0, 0, 0, 0.7)!important;
+        backdrop-filter: blur(4px);
+    }
+    .main-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0 16px;
+        background: rgba(0, 0, 0, 1);
+    }
+    .main-content {
+        padding-top: 82px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .content_head i {
+        margin: 0 1px;
+    }
+    .content_head span {
+        margin: 0 2px 0 0;
+    }
+}

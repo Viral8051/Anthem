@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Monserrat;
+    src: url(../fonts/Montserrat-Light.ttf);
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Monserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Monserrat;
+    src: url(../fonts/Montserrat-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Monserrat;
+    src: url(../fonts/Montserrat-Bold.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Monserrat;
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: ebrima;
+    src: url(../fonts/ebrima.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Ebrima Bold;
+    src: url(../fonts/ebrimabd.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Zichtbaar;
+    src: url(../fonts/Zichtbaar-Regular.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Zichtbaar;
+    src: url(../fonts/Zichtbaar-Extrabold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --dark-color: #f79b77;
+    --light-color: #d5beba;
+    --blue-color: #102a48;
+    --red-color: #bf0a0a;
+    --green-color: #29a670;
+}
+
+* {
+    font-family: 'Zichtbaar';
+    font-weight: 500;
+    font-style: normal;
+}
+
+p {
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+h2 {
+    font-size: 36px;
+    margin: 0;
+    line-height: 32px;
+}
+
+h3 {
+    font-size: 22px;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    ;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s all linear;
+    cursor: pointer;
+}
+
+@media screen and (max-width:767px) {
+    p {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 36px;
+    }
+    h2 {
+        font-size: 24px;
+        margin: 0;
+    }
+    h3 {
+        font-size: 14px;
+        margin: 0;
+    }
+    a {
+        text-decoration: none;
+        font-size: 14px;
+        transition: 0.3s all linear;
+        cursor: pointer;
+    }
+}
